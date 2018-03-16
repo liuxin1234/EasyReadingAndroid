@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.liux.easyreading">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    //获取设备网络状态，禁用后无法获取网络状态
+    <uses-permission android:name="android.permission.INTERNET"/>
+    //网络权限，当禁用后，无法进行检索等相关业务
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    //读取设备硬件信息，统计数据
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    //读取系统信息，包含系统版本等信息，用作统计
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    //获取设备的网络状态，鉴权所需网络代理
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    //允许sd卡写权限，需写入地图数据，禁用后无法显示地图
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    //获取统计数据
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    //鉴权所需该权限获取进程列表
+    <uses-permission android:name="android.permission.CAMERA" />
+    //使用步行AR导航，配置Camera权限
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:name=".application.EasyReadApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--Mob-api-->
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="221237342f7d8"/>
+        <!--百度SDK-->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="HrtMCFyGHqXNU8BHKEfZFONAgonNxAxW" />
+
+        <receiver
+            android:name=".broadcastReceiver.NetBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WelcomeActivity"/>
+
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.WebViewActivity"/>
+
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.RegisterActivity"/>
+        <!--应用功能-->
+        <activity android:name=".activity.moreFunction.FunctionActivity"/>
+        <activity android:name=".activity.moreFunction.HistroyTodayActivity"/>
+        <activity android:name=".activity.moreFunction.HistoryDetailActivity"/>
+        <activity android:name=".activity.moreFunction.WeatherActivity"/>
+        <activity android:name=".activity.moreFunction.BaiduMapActivity"/>
+        <activity android:name=".activity.moreFunction.AirQualityActivity"/>
+        <activity android:name=".activity.moreFunction.DictionaryAPIActivity"/>
+        <activity android:name=".activity.moreFunction.CarAPIActivity"/>
+        <activity android:name=".activity.moreFunction.CarSeriesNameActivity"/>
+        <activity android:name=".activity.moreFunction.CarSeriesDetailActivity"/>
+        <activity android:name=".activity.moreFunction.SmartRefreshLayoutActivity"/>
+        <activity android:name=".activity.moreFunction.FuLiActivity"/>
+        <!--智能下拉刷新框架-->
+        <activity android:name=".activity.moreFunction.smartRefresh.DeliveryStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.DropBoxStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.FlyRefreshStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.WaterDropStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.WaveSwipeStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.MaterialStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.PhoenixStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.TaurusStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.BezierStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.CircleStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.FunGameBattleCityStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.FunGameHitBlockStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.StoreHouseStyleActivity"/>
+        <activity android:name=".activity.moreFunction.smartRefresh.ClassicsStyleActivity"/>
+
+
+    </application>
+
+</manifest>

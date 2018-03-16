@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">轻松阅</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="rationale_camera">此功能需要相机权限，否则无法正常使用，是否打开设置</string>
+    <string name="rationale_location_contacts">此功能需要定位和读写,相机权限，否则无法正常使用，是否打开设置</string>
+    <string name="rationale_sms">This app needs access to your sms to read all your great messages.</string>
+
+
+    <string name="search">查询</string>
+    <string name="error_raise">发现异常，请查看Logcat！</string>
+
+    <!--空气质量查询API-->
+    <string name="environment_api">空气质量查询API</string>
+    <string name="enter_city_name">请输入城市名称</string>
+
+    <!--天气预报API-->
+    <string name="weather_api_title_weather">天气</string>
+    <string name="weather_query_type">天气类型查询</string>
+    <string name="weather_api_title_temperature">温度</string>
+    <string name="weather_api_title_humidity">湿度</string>
+    <string name="weather_api_title_wind">风向</string>
+    <string name="weather_api_title_sunrise">日出时间</string>
+    <string name="weather_api_title_sunSet">日落时间</string>
+    <string name="weather_api_title_airCondition">空气质量</string>
+    <string name="weather_api_title_pollutionIndex">空气质量指数</string>
+    <string name="weather_api_title_cold_index">感冒指数</string>
+    <string name="weather_api_title_dressing_index">穿衣指数</string>
+    <string name="weather_api_title_exercise_index">运动指数</string>
+    <string name="weather_api_title_wash_index">洗衣指数</string>
+    <string name="weather_api_title_crawlerTime">更新时间</string>
+    <string name="weather_api_title_dayTime">白天天气</string>
+    <string name="weather_api_title_night">夜晚天气</string>
+
+    <!--手机号码查询API-->
+    <string name="mobile_api_title_province">省份</string>
+    <string name="mobile_api_title_city">城市</string>
+    <string name="mobile_api_title_cityCode">城市区号</string>
+    <string name="mobile_api_title_mobileNumber">手机号前7位</string>
+    <string name="mobile_api_title_zipCode">邮编</string>
+    <string name="mobile_api_title_operator">运营商信息</string>
+
+    <string name="postcode_api_title_district">区县</string>
+    <string name="postcode_api_title_address">详细地址</string>
+
+    <!--菜谱API-->
+    <string name="cook_api_title_category1">菜谱</string>
+    <string name="cook_api_title_category2">分类</string>
+    <string name="cook_api_title_category3">子类</string>
+    <string name="cook_api_title_ingredients">配料</string>
+    <string name="cook_api_title_method">步骤</string>
+
+    <!--空气质量API-->
+    <string name="environment_api_title_aqi">空气质量指数</string>
+    <string name="environment_api_title_no2">污染物no2</string>
+    <string name="environment_api_title_pm10">污染物pm10</string>
+    <string name="environment_api_title_pm25">污染物pm2.5</string>
+    <string name="environment_api_title_so2">污染物so2</string>
+    <string name="environment_api_title_quality">空气质量</string>
+    <string name="environment_api_title_fetureData">未来几天数据</string>
+    <string name="environment_api_title_date">日期</string>
+    <string name="environment_api_title_hourData">空气质量指数小时数据</string>
+    <string name="environment_api_title_dateTime">时间</string>
+
+    <!--成语词典API-->
+    <string name="idiom_api_title_name">成语</string>
+    <string name="idiom_api_title_pinyin">拼音</string>
+    <string name="idiom_api_title_pretation">释义</string>
+    <string name="idiom_api_title_source">出自</string>
+    <string name="idiom_api_title_sample">示例</string>
+    <string name="idiom_api_title_sampleFrom">示例出自</string>
+
+    <!--新华字典API-->
+    <string name="dictionary_api_title_name">汉字</string>
+    <string name="dictionary_api_title_wubi">五笔</string>
+    <string name="dictionary_api_title_bushou">首部</string>
+    <string name="dictionary_api_title_bihuaWithBushou">去部首后笔画数</string>
+    <string name="dictionary_api_title_pinyin">拼音</string>
+    <string name="dictionary_api_title_brief">简介</string>
+    <string name="dictionary_api_title_detail">明细</string>
+    <string name="enter_id_dictionary">请输入单个汉字</string>
+
+    <!--汽车信息API-->
+    <string name="car_api_title_series_name">根据车系名称查询车型(%s)</string>
+    <string name="car_api_title_series">查询车型详细信息(%s)</string>
+    <string name="car_api_item_brand_name">汽车品牌: %s</string>
+    <string name="car_api_item_brand_car">汽车子品牌或合资品牌</string>
+    <string name="car_api_item_series_brand_name">品牌名称</string>
+    <string name="car_api_item_series_car_id">数据id(查询车型详细信息用到)</string>
+    <string name="car_api_item_series_guide_price">指导价</string>
+    <string name="car_api_item_series_name">车型名称</string>
+    <string name="car_api_item_car_type">车系名称</string>
+    <string name="car_api_item_car_image">图片地址</string>
+    <string name="car_api_item_base_info">车型基本配置信息</string>
+    <string name="car_api_item_air_config">空调/冰箱配置信息</string>
+    <string name="car_api_item_car_body">车身配置信息</string>
+    <string name="car_api_item_chassis">底盘配置信息</string>
+    <string name="car_api_item_control_config">操控配置信息</string>
+    <string name="car_api_item_engine">发动机配置信息</string>
+    <string name="car_api_item_exter_config">外部配置信息</string>
+    <string name="car_api_item_glass_config">玻璃/后视镜配置信息</string>
+    <string name="car_api_item_inter_config">内部配置信息</string>
+    <string name="car_api_item_light_config">灯光配置信息</string>
+    <string name="car_api_item_media_config">多媒体配置信息</string>
+    <string name="car_api_item_safety_device">安全配置信息</string>
+    <string name="car_api_item_seat_config">座椅配置信息</string>
+    <string name="car_api_item_tech_config">高科技配置信息</string>
+    <string name="car_api_item_transmission">变速箱配置信息</string>
+    <string name="car_api_item_wheel_info">车轮制动信息</string>
+    <string name="car_api_item_motor_list">电动机配置信息</string>
+
+    <!--智能刷新smartRefresh-->
+    <string name="title_activity_style_dropbox">掉落盒子</string>
+    <string name="title_activity_style_delivery">气球快递</string>
+    <string name="title_activity_style_flyrefresh">纸飞机</string>
+    <string name="title_activity_style_wave_swip">全屏水波</string>
+    <string name="title_activity_style_material">官方主题</string>
+    <string name="title_activity_style_water_drop">苹果水滴</string>
+    <string name="title_activity_style_phoenix">金色校园</string>
+    <string name="title_activity_style_taurus">冲上云霄</string>
+    <string name="title_activity_style_bezier">贝塞尔雷达</string>
+    <string name="title_activity_style_classics">经典风格</string>
+    <string name="title_activity_style_circle">弹出圆圈</string>
+    <string name="title_activity_style_fungame_battlecity">战争城市</string>
+    <string name="title_activity_style_fungame_hitblock">打砖块</string>
+    <string name="title_activity_style_storehouse">StoreHouse</string>
+    <string name="title_activity_fly_refresh">FlyRefresh</string>
+
+    <!--美图福利-->
+    <!-- 共享过度动画 -->
+    <string name="transition_photos">transition_animation_news_photos</string>
+</resources>

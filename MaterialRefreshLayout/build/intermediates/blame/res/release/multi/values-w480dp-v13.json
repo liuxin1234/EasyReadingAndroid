@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "E:\\androidProject\\MyGithub\\EasyReadingAndroid\\MaterialRefreshLayout\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\75095\\.android\\build-cache\\45819f29618892b3314ed24da183eba605d630ba\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 61,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "C:\\Users\\75095\\.android\\build-cache\\45819f29618892b3314ed24da183eba605d630ba\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 71,
+                        "endOffset": 537
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\androidProject\\MyGithub\\EasyReading\\MaterialRefreshLayout\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\75095\\.android\\build-cache\\45819f29618892b3314ed24da183eba605d630ba\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 61,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "C:\\Users\\75095\\.android\\build-cache\\45819f29618892b3314ed24da183eba605d630ba\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 71,
+                        "endOffset": 537
+                    }
+                }
+            }
+        ]
+    }
+]

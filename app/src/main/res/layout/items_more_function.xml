@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:makeramen="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_GridButton_logo_btm"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:riv_mutate_background="true"
+                app:riv_oval="true"
+                app:riv_tile_mode="repeat"
+                makeramen:corner_radius="100dip"
+
+                />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_GridButton_logo_top"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_GridButton_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="个人管理"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

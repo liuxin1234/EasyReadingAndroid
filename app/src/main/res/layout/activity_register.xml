@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/status_bar_view"/>
+    <include layout="@layout/toolbar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selector_view_block"
+        android:orientation="vertical"
+        android:padding="@dimen/largePadding">
+
+        <com.liux.easyreading.widget.ClearEditText
+            android:id="@+id/etxt_userName"
+            style="@style/editText_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_user_name"
+            android:drawablePadding="20dp"
+            android:hint="请输入用户名"
+            />
+
+        <View
+            style="@style/line_vertical"/>
+
+        <com.liux.easyreading.widget.ClearEditText
+            android:id="@+id/etxt_pwd"
+            style="@style/editText_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_pass_word"
+            android:drawablePadding="20dp"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            />
+
+
+        <View
+            style="@style/line_vertical"/>
+
+
+        <com.liux.easyreading.widget.ClearEditText
+            android:id="@+id/etxt_email"
+            style="@style/editText_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_email"
+            android:drawablePadding="20dp"
+            android:hint="请输入邮箱"
+            android:inputType="textEmailAddress"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/bigRedButton"
+        android:text="注 册"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
